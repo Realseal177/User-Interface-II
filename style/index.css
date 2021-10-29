@@ -1,1 +1,144 @@
 /* Add CSS styling here */
+/*CSS Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid grey; 
+}
+
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height:1.5;
+    color:#4f4f4f;
+    background-color:ivory;
+    font-family: ;
+}
+h1{
+    color:orange;
+    font-size:6rem;
+}
+h2{
+    font-size:3rem;
+}
+h3{
+    font-size:2.2rem;
+    font-style: italic;
+}
+h1, h2, h3 {
+    font-family: 'Mulish', sans-serif;
+}
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+#top .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button {
+    background-color: #FF8C00;
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    font-size:1.8rem;
+    padding:2% 3%;
+    margin-top:0%;
+    border: 0;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+button:hover {
+    color:orange;
+    background-color: #2a4394;
+}
+a {
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    font-style: italic;
+    border: 1px;
+    color: gray;
+    transition: 0.5s;
+    margin-left: 2%;
+}
+a:hover {
+    color: orange;
+
+}
+.right {
+    padding: 2%;
+}
+.right, .left {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.container3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+img {
+    border-radius: 10px;
+}
+.fun-thing, .metal-thing, .cool-thing, .cold-thing, .sales-project, .coffee-project, .music-project, .school-project, {
+    width: 25%;
+}
+.text {
+    padding:0%;
+    width: 300px;
+    text-align: center;
+}
+
+footer {
+    padding: 5%;
+    background-color: lightgrey;
+}
+footer div{
+    background-color:lightgrey;
+    display:flex;
+    justify-content: center;
+}
+.lower-links {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
